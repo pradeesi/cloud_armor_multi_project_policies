@@ -6,7 +6,7 @@
 
   * Install "gcloud" cli
   * Install Terraform
-  * Close the Terraform scripts from git repo to the local directory.
+  * Clone the Terraform scripts from this git repo to your local directory.
 
 ## 2. Authentication:
 
