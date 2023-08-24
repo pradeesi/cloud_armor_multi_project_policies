@@ -34,12 +34,26 @@ More Authentication options available at - https://registry.terraform.io/provide
 
 Variables for this script are defined in 3 files - 
 
-* **terraform.tfvars:**  List of GCP Projects, and Security Policy Params.
-* **project_specific_rules.auto.tfvars:** List of unique rules mapped with the GCP Projects.
-* **common_rules.auto.tfvars:** List of common rules applicable to all the GCP projects defined in the "terraform.tfvars" files.
+  * **terraform.tfvars:**  List of GCP Projects, and Security Policy Params.
+  * **project_specific_rules.auto.tfvars:** List of unique rules mapped with the GCP Projects.
+  * **common_rules.auto.tfvars:** List of common rules applicable to all the GCP projects defined in the "terraform.tfvars" files.
 
-Note: All the variables and various data-strustrues are defined in the "variables.tf" file.
+  Note: All the variables, and the data-strustrues are defined in the "variables.tf" file.
 
 
 ## 4. Initialize, Plan, and Apply:
+
+Once you are done with the variable files, you can use "terraform init" command to install the Cloud Armor's "security_policy" module from Terraform repo. 
+
+    terraform init
+  
+Create and varify the plan using "terraform plan" command - 
+
+    terraform plan
+
+Apply the changes to Cloud Armor using the "terraform apply" command - 
+
+    terraform apply
+
+
 
