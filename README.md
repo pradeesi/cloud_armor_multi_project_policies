@@ -1,6 +1,18 @@
 
 # Multi-Project Cloud Armor Security Policy Management using Terraform
 
+This terraform script will allow you to do the following - 
+
+1. Manage common Cloud Armor Policy rules across multiple GCP Projects.
+2. Manage GCP project specific Cloud Armor Policies.
+
+Following types of rules can be configured using this terraform script - 
+
+  * **Pre-Configured Rules:** These are based on pre-configured waf rules.
+  * **Security Rules:** Allow or Deny traffic from list of IP addresses or IP adress ranges.
+  * **Custom Rules:** You can create your own rules using Common Expression Language (CEL).
+  * **Threat Intelligence Rules:** Add Rules based on threat intelligence. Managed protection plus subscription is needed to use this feature.
+
 
 ## 1. Pre-Requisites: 
 
@@ -54,6 +66,5 @@ Create and varify the plan using "terraform plan" command -
 Apply the changes to Cloud Armor using the "terraform apply" command - 
 
     terraform apply
-
 
 
