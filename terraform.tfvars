@@ -10,7 +10,7 @@
 
 
 # GCP Project list
-gcp_projects = ["maf-testing-387011", "awr-testing"]
+gcp_projects = ["project-1", "project-2"]
 
 
 # Security Policy basic parameters
