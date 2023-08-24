@@ -11,7 +11,7 @@
 
 project_specific_rules_list = [ 
         {
-            gcp_project = "maf-testing-387011"
+            gcp_project = "project-1"
             project_specific_custom_rules = {
 
                     throttle_specific_ip_region = {
@@ -34,7 +34,7 @@ project_specific_rules_list = [
         }, 
 
         {
-            gcp_project = "awr-testing"
+            gcp_project = "project-2"
             project_specific_custom_rules = {}
             project_specific_pre_configured_rules = {}
             project_specific_security_rules = {
