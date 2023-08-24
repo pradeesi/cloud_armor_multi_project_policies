@@ -3,8 +3,8 @@
 
 This terraform script will allow you to do the following - 
 
-1. Manage common Cloud Armor Policy rules across multiple GCP Projects.
-2. Manage GCP project specific Cloud Armor Policies.
+  **1.** Manage common Cloud Armor Policy rules across multiple GCP Projects.
+  **2.** Manage GCP project specific Cloud Armor Policies.
 
 Following types of rules can be configured using this terraform script - 
 
